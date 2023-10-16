@@ -52,8 +52,9 @@ public class Mosoda {
         for (int i = 0; i < ruhaDb; i++) {
             Ruha r = this.ruhak[i];
             if(r != null){
-                ruhak[i] = r.getTulNev();
+                ruhak[i] = r.toString();
                 
+                /* ruhak[i] = r.getTulNev();
                 //ruhak[i] += r instanceof Ing ? " ingje " : " ruhája ";
                 String szinIntenzitas = "";
                 if(r instanceof Ing){
@@ -63,7 +64,7 @@ public class Mosoda {
                     ruhak[i] += " ruhája ";
                 }
                 ruhak[i] += r.isTiszta() ? "tiszta" : "koszos";
-                ruhak[i] += szinIntenzitas;
+                ruhak[i] += szinIntenzitas;*/
             }
         }
         return ruhak;

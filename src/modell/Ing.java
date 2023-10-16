@@ -16,4 +16,10 @@ public class Ing extends Ruha{
         this.szinIntenzitas = szinIntenzitas;
     }
 
+    @Override
+    public String toString() {
+        String os = super.toString();
+        return os+"Ing{" + "szinIntenzitas=" + szinIntenzitas + '}';
+    }
+
 }
